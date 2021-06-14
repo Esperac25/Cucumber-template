@@ -2,6 +2,7 @@ package com.qa.examples.cucumber_base;
 
 import org.junit.runner.RunWith;
 
+
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import io.cucumber.junit.CucumberOptions.SnippetType;
@@ -19,6 +20,4 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 		},
 		monochrome = false // true = black & white output
 )
-public class RunCucumberTest {
-
-}
+public class RunCucumberTest {}
